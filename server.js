@@ -60,10 +60,6 @@ app.post("/send-email", async (req, res) => {
   }
 });
 
-app.get("/", (req, res) => {
-  res.send("Server repostmaster running");
-});
-
 app.listen(PORT, () => {
-  console.log(`Example app listening on port ${PORT}`);
+  console.log(`listening on port ${PORT}`);
 });
